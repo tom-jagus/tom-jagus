@@ -43,3 +43,25 @@ These are the primary platforms and tools I use to design, deploy, and maintain 
   - Verifying model output via pivot tables connected to datasets
   - Creating sanity checks and reconciliation reports
   - Supporting hybrid workflows with non-technical users
+
+## 🤖 AI, LLMs & Automation
+
+I actively integrate AI tooling into my workflows — both to accelerate development and to create intelligent, adaptable systems for clients and internal use.
+
+- **Prompt Engineering** — designing modular, context-aware prompts for analysis, content creation, automation, and structured logic chains
+
+- **LLM Tooling** — working across multiple platforms for prototyping, insight generation, and workflow integration:
+
+  - **OpenAI** — for structured prompt systems, content extraction, and assistant-style interfaces
+  - **Microsoft Copilot** — for productivity acceleration across documentation and reporting tools
+  - **Ollama** — experimenting with lightweight, private LLMs for offline and local-enhanced tasks
+
+- **Generative AI** — using LLMs for interface sketching, documentation scaffolding, semantic tagging, and rapid knowledge transfer
+
+- **AI-Augmented Workflows** — supporting tasks like data profiling, column descriptions, metric definitions, text-to-query translation, and QA/testing scenarios
+
+- **RAG and Vector Search (Exploratory)** — experimenting with semantic search, FAISS/Qdrant vector stores, and structured context injection
+
+- **Automation Integration** — embedding LLMs into terminal workflows, scripts, and custom tools to reduce boilerplate, lookup effort, and repetitive coding
+
+I focus on using AI to support **human-led problem solving** — not to replace thinking, but to reduce friction, amplify insights, and enable faster, more confident execution.
