@@ -65,3 +65,31 @@ I actively integrate AI tooling into my workflows — both to accelerate develop
 - **Automation Integration** — embedding LLMs into terminal workflows, scripts, and custom tools to reduce boilerplate, lookup effort, and repetitive coding
 
 I focus on using AI to support **human-led problem solving** — not to replace thinking, but to reduce friction, amplify insights, and enable faster, more confident execution.
+
+## ⚙️ Developer Tooling
+
+I maintain a lean, fast, and fully version-controlled development environment across Linux and Windows. My setup is built around consistency, automation, and low-friction navigation — designed to scale from quick scripting to full data workflows.
+
+- **Neovim (LazyVim)** — my primary editor, extended with Lua plugins for LSP, AI assistance, markdown tools, and customized workflows
+
+  - Includes tools like:
+    - `mason` — LSP installer/manager
+    - `conform.nvim` — formatter management
+    - `nvim-treesitter` — syntax-aware parsing and highlighting
+    - `nvim-cmp` stack — fast, intelligent autocompletion
+
+- **Git & GitHub** — used for everything from project and config management to automation and CI/CD
+
+  - I follow a GitHub Flow strategy, extended with personal aliases for feature branches, PRs, and safe merges
+
+- **lazygit** — terminal-based Git UI used for staging, reviewing, resolving, and committing changes efficiently
+
+- **ripgrep, fzf, yazi** — my go-to stack for fuzzy finding, recursive search, and file navigation in terminal environments
+
+- **Python environment tools** — I use [`uv`](https://github.com/astral-sh/uv) for fast dependency management and environment isolation, and [`ruff`](https://github.com/astral-sh/ruff) for linting and formatting
+
+- **Shell automation** — portable setup scripts (Bash + PowerShell) to bootstrap Neovim, clone dotfiles, configure Git, and prep new machines
+
+- **GitHub CLI & Actions** — used to automate PRs, repo ops, and site/blog deployments in personal and client-facing projects
+
+I treat my tooling like any production system — composable, documented, and continuously improved.
