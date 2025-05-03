@@ -1,8 +1,10 @@
 # ⚖️ Principles
 
-This is a high-level summary of the principles I follow when building systems, writing code, structuring projects, or solving problems. These are meant to be portable, repeatable defaults that reduce ambiguity and support long-term clarity.
+These are the habits, defaults, and small rules I rely on to keep my work clear, maintainable, and useful — for myself and for anyone else who might work with me or pick up what I’ve built.
 
-For detailed rules, standards, and examples, see the `standards/` directory.
+They're not set in stone, but they help me move faster, make better decisions, and stay consistent across projects.
+
+For more detailed standards and examples, check the `standards/` folder.
 
 ## 🔍 Naming & Structure
 
