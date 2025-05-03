@@ -142,3 +142,38 @@ Designing clean, scalable, and understandable semantic models is central to my w
   - Validating assumptions with tools like DAX Studio and server timings
 
 For me, modeling isn’t just technical — it’s where context, logic, and usability come together. I build semantic layers that clarify, not complicate.
+
+## 📚 Project & Workflow Management
+
+I treat projects as systems — with repeatable flows, reusable structure, and clearly defined stages from idea to delivery. I’ve adapted my workflow to support long-term consulting, multi-repo ecosystems, and solo project development alike.
+
+- **GitHub Flow (customized)** — I follow a lightweight branching and review model optimized for solo and client work
+
+  - Feature branches for all changes (never working directly on `main`)
+  - Git aliases to standardize branch naming, PRs, and merges
+  - PRs used for testing, self-review, documentation, and final validation
+  - Branch protection rules and CI integration to enforce discipline
+
+- **Standardized repo structure** — All projects follow a consistent file/folder convention
+
+  - `src/`, `docs/`, `scripts/`, `tests/`, `README.md`, `.gitattributes`, `.gitignore`
+  - Dotfile/config projects follow the same structure, with install scripts, docs, and automation built in
+
+- **Cross-platform automation** — I maintain setup scripts and bootstrap flows to replicate environments across Linux and Windows machines
+
+- **Documentation-first mindset** — I document assumptions, goals, decisions, and logic
+
+  - In Markdown, alongside code, or as project notes
+  - Prefer simple and honest docs over elaborate diagrams that go stale
+
+- **Process adaptation** — I work well in agile teams, but often operate in hybrid or waterfall settings
+
+  - I bring agile structure to legacy environments without friction
+  - I define my own backlogs, reviews, and feedback loops when none exist
+
+- **Personal knowledge management** — I maintain a Zettelkasten-style note system using Obsidian and markdown-based tools
+  - My notes are structured as a network of topics, patterns, and reusable templates
+  - I use it to track decisions, ideas, lessons, and recurring workflows
+  - It acts as both a knowledge base and a sandbox for thinking, writing, and reflection
+
+Whether I’m contributing to a shared repo, designing an internal tool, or mapping out a new domain, I rely on structure, clear thinking, and consistent documentation to keep projects clean, navigable, and resilient over time.
