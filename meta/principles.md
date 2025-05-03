@@ -41,3 +41,12 @@ I don’t write documentation for the sake of it — I write it to save time, re
 - I try to keep README files short, useful, and honest: what is this, how do I use it, what should I watch out for
 - If something feels important but non-obvious, it gets a comment or a note nearby
 - I don’t aim for perfect docs — just helpful ones
+
+## 🧪 Problem Solving & Design
+
+I try to slow down just enough to understand the real problem — because building the wrong thing quickly doesn’t help anyone.
+
+- I start by asking what outcome we actually want — not just what tool or feature someone mentioned
+- I don’t design for the happy path — I think about edge cases, scaling, and what could break later
+- If I can’t explain the solution clearly, I probably don’t understand it well enough yet
+- Constraints are helpful — they make it easier to design something focused and useful
