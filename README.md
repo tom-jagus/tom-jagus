@@ -42,3 +42,12 @@ If you're curious about how I think, work, and build — I've documented my appr
 - [`/processes/`](./processes/) — how I handle changes, releases, onboarding, and collaboration (coming soon)
 
 🔗 For a full overview, see [`knowledge-base.md`](./knowledge-base.md)
+
+## 📫 Let’s Connect
+
+I’m always open to meaningful conversations — whether it’s about consulting, automation, clean data workflows, or just sharing ideas.
+
+- 💼 Connect on [LinkedIn](https://www.linkedin.com/in/tom-jagus)
+- 🧵 Reach out on [X](https://x.com/tom_jagus)
+
+If you explore this repo and something resonates — or challenges your way of working — I’d love to hear about it.
