@@ -21,3 +21,24 @@ I approach problems with a mix of structure, curiosity, and long-term thinking. 
 - **Sustainable solutions** — building systems that are simple to use, easy to maintain, and valuable over time
 - **Documented decisions** — making context visible through commit history, markdown notes, and readable configuration
 - **Small, confident steps** — shipping iteratively and refining as feedback or clarity improves
+
+## 📖 Explore My Knowledge Base
+
+If you're curious about how I think, work, and build — I've documented my approach in a growing personal knowledge base inside this repository.
+
+### 🔹 Foundations
+
+- [About me](./meta/about.md) — what I do, where I’ve worked, and how I got here
+- [Philosophy](./meta/philosophy.md) — my mission, values, and long-term thinking
+- [Principles](./meta/principles.md) — how I approach code, naming, automation, and problem solving
+
+### 🔹 Tools & Workflow
+
+- [Stack](./tools/stack.md) — languages, platforms, and developer tools I use daily
+
+### 🔹 Standards & Processes
+
+- [`/standards/`](./standards/) — naming conventions, repo structure, git flow, and more (in progress)
+- [`/processes/`](./processes/) — how I handle changes, releases, onboarding, and collaboration (coming soon)
+
+🔗 For a full overview, see [`knowledge-base.md`](./knowledge-base.md)
