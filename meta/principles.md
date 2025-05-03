@@ -23,3 +23,12 @@ I use version control to tell the story of what changed, why it changed, and how
 - I write commit messages like notes to my future self: short, focused, and in the present tense
 - Pull requests help me slow down, double-check my thinking, and document things as I go
 - I try to keep branches clean and scoped — one idea at a time, easy to follow later
+
+## 📦 Code & Automation
+
+If I’ve done something more than once and it’s even a little annoying, I’ll probably script it.
+
+- I try to automate anything that feels repetitive, fragile, or easy to forget
+- I’d rather write a small script than rely on memory or manual steps
+- If it might run on another machine, I make sure it’s portable and doesn’t assume too much
+- I like errors to fail loud and early — better to catch problems upfront than let them hide
