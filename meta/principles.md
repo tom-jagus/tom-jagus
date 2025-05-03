@@ -32,3 +32,12 @@ If I’ve done something more than once and it’s even a little annoying, I’l
 - I’d rather write a small script than rely on memory or manual steps
 - If it might run on another machine, I make sure it’s portable and doesn’t assume too much
 - I like errors to fail loud and early — better to catch problems upfront than let them hide
+
+## 📚 Documentation
+
+I don’t write documentation for the sake of it — I write it to save time, reduce confusion, and make things easier to pick up later.
+
+- I explain the things that would confuse me if I came back in six months
+- I try to keep README files short, useful, and honest: what is this, how do I use it, what should I watch out for
+- If something feels important but non-obvious, it gets a comment or a note nearby
+- I don’t aim for perfect docs — just helpful ones
