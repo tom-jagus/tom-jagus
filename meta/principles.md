@@ -6,9 +6,18 @@ For detailed rules, standards, and examples, see the `standards/` directory.
 
 ## 🔍 Naming & Structure
 
-Consistency beats cleverness. Names should be predictable, descriptive, and reflect the structure they live in.
+Good naming is about making things easier for the next person — even if that person is me, months from now.
 
-- Prefer lower_snake_case for files and folders
-- Keep directory trees shallow and intentional
-- Avoid abbreviations unless they’re widely understood
-- Every name should answer: “What is this?” and “What’s it for?”
+- I try to keep things predictable: lowercase, snake_case, and readable at a glance
+- I avoid clever names unless they’re actually helpful
+- Every folder exists for a reason — no nesting just for the sake of it
+- If I need to guess what something is or why it’s there, I probably named it wrong
+
+## 💾 Version Control
+
+I use version control to tell the story of what changed, why it changed, and how it got there.
+
+- I never commit directly to `main` — every change gets its own branch, no matter how small
+- I write commit messages like notes to my future self: short, focused, and in the present tense
+- Pull requests help me slow down, double-check my thinking, and document things as I go
+- I try to keep branches clean and scoped — one idea at a time, easy to follow later
