@@ -93,3 +93,52 @@ I maintain a lean, fast, and fully version-controlled development environment ac
 - **GitHub CLI & Actions** — used to automate PRs, repo ops, and site/blog deployments in personal and client-facing projects
 
 I treat my tooling like any production system — composable, documented, and continuously improved.
+
+## 🧪 Scripting & Integration
+
+I rely heavily on scripting to automate data flows, integrate systems, and reduce manual effort across recurring tasks. My scripting environment spans multiple languages and platforms — all focused on portability, clarity, and real-world output.
+
+- **Python** — my primary language for scripting data pipelines, API connectors, web scraping, and file processing
+
+  - Often used in automation flows to extract data, reshape files, upload results, or trigger downstream tools
+
+- **Shell scripting (Bash & PowerShell)** — used for bootstrapping environments, managing config, orchestrating setup flows across Linux and Windows
+
+- **C# scripting (Tabular Editor)** — used for automating model changes, managing calculation groups, mass-editing metadata, and generating reusable DAX patterns
+
+- **REST API integration** — experience working with JSON, token-based authentication, and platform-specific APIs (e.g., ServiceNow, GitHub, OpenAI)
+
+  - Scripting API calls for data extraction, automation triggers, or status/reporting updates
+
+- **ServiceNow scripting & reporting** — building export flows, extracting reporting data, and automating performance analytics exports using the platform's scripting layer
+
+- **Data flow automation** — scripting ETL/ELT-like tasks across file systems, Excel, APIs, and databases — often bridging structured tools like Power BI with external logic
+
+My scripting focus is always on clarity, reuse, and versionability — not throwaway scripts, but modular tools that can scale or adapt as needed.
+
+## 📦 Data Modeling & Semantics
+
+Designing clean, scalable, and understandable semantic models is central to my work — whether for one-off reporting or enterprise-wide datasets. I treat the model layer as a critical interface between raw data and business value.
+
+- **Tabular Modeling** — experienced in building and maintaining semantic models using Power BI, Microsoft Fabric, and Tabular Editor
+
+  - Creating reusable measures, hierarchies, calculation groups, and KPI structures
+  - Managing relationships, normalization, and performance-optimized schema design
+  - Applying role-level security (RLS), perspectives, and documentation standards
+
+- **TMDL (Tabular Model Definition Language)** — used for versioning, deploying, and managing semantic models in source control
+
+  - Enabling clean diffing, rollbacks, collaboration, and CI/CD-style deployments
+  - Working with TMDL in both Tabular Editor and Microsoft Fabric environments
+
+- **Metadata & Governance** — I take a disciplined approach to model metadata
+
+  - Using consistent naming conventions, foldering, and descriptions
+  - Supporting documentation via scripting, metadata extraction, and alignment with stakeholders
+
+- **Measure Logic & Performance** — I build DAX that balances readability and performance
+  - Avoiding unnecessary dependencies or filters
+  - Using `CALCULATE`, `REMOVEFILTERS`, `VAR`, and iterator patterns effectively
+  - Validating assumptions with tools like DAX Studio and server timings
+
+For me, modeling isn’t just technical — it’s where context, logic, and usability come together. I build semantic layers that clarify, not complicate.
