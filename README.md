@@ -1,16 +1,14 @@
-## Hi there 👋
+# 👋 Hi, I’m Tom Jagus
 
-<!--
-**tom-jagus/tom-jagus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a data-focused consultant and developer who helps solve real problems through clear structure, automation, and well-designed systems.
 
-Here are some ideas to get you started:
+I specialize in building tools and workflows that reduce friction, unlock insight, and support better decision-making — whether that's through data modeling, scripting, or AI integration.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧰 What I Work On
+
+My work spans several domains, but it always comes back to structure, clarity, and meaningful outcomes. I focus on:
+
+- **Data modeling & reporting** — building semantic models, metrics, and reports in Power BI and Microsoft Fabric
+- **Automation & scripting** — streamlining workflows with Python, APIs, shell scripts, and cross-platform tooling
+- **LLMs & AI integration** — using prompt engineering, embeddings, and local tools to augment analysis and decision-making
+- **Process optimization** — improving systems, reducing manual effort, and documenting the things that matter
