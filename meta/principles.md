@@ -50,3 +50,7 @@ I try to slow down just enough to understand the real problem — because buildi
 - I don’t design for the happy path — I think about edge cases, scaling, and what could break later
 - If I can’t explain the solution clearly, I probably don’t understand it well enough yet
 - Constraints are helpful — they make it easier to design something focused and useful
+
+---
+
+These principles aren’t about being perfect — they’re just how I try to work when I care about getting it right. They help me stay focused, move with purpose, and build things that actually help.
