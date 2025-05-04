@@ -66,3 +66,60 @@ This command:
 - Optionally pushes it to remote (configurable in alias script)
 
 The alias system is defined in the Git configuration file.
+
+## 🔁 Pull Request Workflow
+
+All changes are merged into `main` through a pull request (PR). This process applies to all repositories, regardless of team size or project scope.
+
+### Key practices
+
+- Every branch is merged via a pull request — never directly to `main`
+- Pull requests are used to:
+  - Review code before merging (even when working solo)
+  - Validate that all intended changes are correct and complete
+  - Add meaningful context to the change via the PR description
+  - Trigger automated tests, linters, or GitHub Actions when applicable
+
+### PR titles and descriptions
+
+- The title should match the branch name (or summarize it clearly)
+- The description should include:
+  - A brief explanation of what was done and why
+  - Any notes for future reference
+  - Links to related issues, if applicable
+
+### Merging and cleanup
+
+After a successful review and test pass:
+
+- The branch is merged using “Squash and merge” or “Rebase and merge” (based on repo settings)
+- The local and remote branch is deleted using:
+
+```bash
+git hf done
+```
+
+This command switches back to `main`, pulls updates, and deletes the merged branch locally and remotely.
+
+## 🧹 Branch Maintenance
+
+Branch hygiene is important for keeping repositories clean, understandable, and easy to navigate.
+
+- Branches should be:
+
+  - Short-lived
+  - Task-focused
+  - Scoped to a single change or goal
+
+- Avoid:
+
+  - Combining unrelated changes into one branch
+  - Leaving branches open after a merge
+  - Using generic branch names (e.g., `update`, `fixes`, `test-1`)
+
+- After merging:
+  - Always delete the branch (locally and remotely)
+  - Ensure `main` is up to date before starting new work
+  - Optionally tag the repository if the change warrants a version bump (see: `releases.md`)
+
+Regular branch maintenance prevents merge conflicts, simplifies history, and keeps automation workflows reliable.
