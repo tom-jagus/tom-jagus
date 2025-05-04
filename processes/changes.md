@@ -86,3 +86,30 @@ docs: Document branching workflow and process
 ```
 
 Use a consistent prefix when appropriate, but avoid redundancy if the branch and PR already provide that context.
+
+## ✅ Testing & Validation
+
+All changes should be tested or validated before merging. The level of testing depends on the change type, but the goal is the same: confirm the work does what it’s supposed to, and doesn’t break anything else.
+
+### Manual validation
+
+- Confirm expected behavior through real use or test cases
+- Check output, logs, or generated files when applicable
+- Re-run scripts or config reloads to ensure changes take effect
+
+### Linting and format checks
+
+- Use static analysis tools (e.g., `ruff`, `shellcheck`, `luacheck`) when applicable
+- Resolve warnings or format issues before opening a PR
+
+### What to check per change type
+
+| Change Type | Validation Approach                                     |
+| ----------- | ------------------------------------------------------- |
+| `feat/`     | Run the new feature and confirm expected behavior       |
+| `fix/`      | Reproduce the bug before and confirm it’s resolved      |
+| `refactor/` | Compare results before and after — no functional change |
+| `docs/`     | Proofread, check formatting, test any code blocks       |
+| `test/`     | Confirm that added tests execute and pass               |
+
+If automated tests or checks exist, they should pass before merging. When working solo, manual confirmation is sufficient if it’s documented in the PR or commit.
