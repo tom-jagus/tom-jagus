@@ -92,3 +92,34 @@ Tags must use the v prefix (e.g., v0.3.1)
 Tags are lightweight and can be created retroactively for past milestones
 
 GitHub releases are optional but recommended for public-facing projects
+
+## 📝 Writing Release Notes
+
+Release notes provide context and traceability for each version. They help explain what changed, why it matters, and how it affects usage.
+
+Notes can be written in the GitHub UI or stored in a `CHANGELOG.md` file for cumulative history.
+
+### What to include
+
+- A brief summary of the purpose of the release
+- Grouped changes by type (features, fixes, docs, refactors, etc.)
+- Any breaking changes or upgrade considerations
+- Links to related PRs or documentation (if applicable)
+
+### Example
+
+```
+v0.5.0 — Add markdown-focused Neovim plugins
+Added
+feat: Integrate markdown-preview.nvim and headlines.nvim
+
+docs: Add documentation for markdown tools and workflow
+
+Changed
+refactor: Restructure lua/plugins folder for grouping
+
+Notes
+Requires Neovim 0.9 or higher
+```
+
+Use a clear, consistent format so future releases are easy to scan and compare.
