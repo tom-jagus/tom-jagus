@@ -54,3 +54,41 @@ The same versioning format is applied across:
 | Config repos        | Bump when structure changes, tools are added, or setup flow is improved        |
 | Script/tool repos   | Bump when functionality changes, flags are added, or compatibility is extended |
 | Documentation repos | Optional — tag only at major rewrites or clean base snapshots                  |
+
+## 🛠 Creating a Release
+
+Releases are created when a meaningful change has been merged into the `main` branch and is ready to be published, versioned, or reused.
+
+### Release checklist
+
+1. Ensure `main` is up to date:
+
+```bash
+  git checkout main
+  git pull origin main
+```
+
+2. Verify the work meets release criteria (see: What Counts as a Release)
+
+3. Assign the next version number based on the versioning strategy
+
+4. Tag the release:
+
+```bash
+git tag -a v0.5.0 -m "Add markdown-focused Neovim plugin group"
+git push origin v0.5.0
+```
+
+5. (Optional) Create a GitHub release:
+
+- Go to the Releases tab on GitHub
+- Select the newly pushed tag
+- Write a short release summary (see next section)
+
+### Notes
+
+Tags must use the v prefix (e.g., v0.3.1)
+
+Tags are lightweight and can be created retroactively for past milestones
+
+GitHub releases are optional but recommended for public-facing projects
