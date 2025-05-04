@@ -113,3 +113,27 @@ All changes should be tested or validated before merging. The level of testing d
 | `test/`     | Confirm that added tests execute and pass               |
 
 If automated tests or checks exist, they should pass before merging. When working solo, manual confirmation is sufficient if it’s documented in the PR or commit.
+
+## 📌 Scope Discipline
+
+Changes should remain focused on a single purpose. Mixing multiple types of work into a single branch or commit increases the risk of errors and makes reviews more difficult.
+
+### Guidelines
+
+- Keep each branch focused on a single task or problem
+- Avoid combining:
+  - Features with refactors
+  - Fixes with unrelated documentation
+  - Formatting with logic changes
+- Break large changes into logical commits, even if they land in one PR
+- If the scope grows unexpectedly, consider splitting the work into a separate branch or future task
+
+### Examples
+
+| ✅ Good practice                    | 🚫 To avoid                        |
+| ----------------------------------- | ---------------------------------- |
+| `feat: Add logging wrapper`         | `feat: Add logging + refactor CLI` |
+| `fix: Handle null values in report` | `fix: Update formatting + fix bug` |
+| `docs: Document naming standards`   | `feat: Add alias + docs + tests`   |
+
+Clear scope makes it easier to review, test, revert, or reuse work later.
