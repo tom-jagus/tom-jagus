@@ -137,3 +137,19 @@ Changes should remain focused on a single purpose. Mixing multiple types of work
 | `docs: Document naming standards`   | `feat: Add alias + docs + tests`   |
 
 Clear scope makes it easier to review, test, revert, or reuse work later.
+
+## 🔁 Final Review Checklist
+
+Before opening a pull request, confirm the following:
+
+- [ ] The change is focused and stays within its intended scope
+- [ ] All changes have been tested or validated
+- [ ] Each commit is purposeful and clearly written
+- [ ] No unrelated formatting, cleanup, or leftover debug code is included
+- [ ] The branch name and PR title accurately describe the change
+
+Optional (but recommended):
+
+- [ ] The PR description explains the reasoning behind the change
+- [ ] Any known side effects or limitations are noted
+- [ ] Related standards or documentation were updated (if relevant)
