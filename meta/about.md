@@ -1,29 +1,35 @@
 # About me
 
-I’m Tom Jagus, a Workflow Design & Improvement Consultant. I help organizations understand operational problems and improve how work gets done-from a recurring task to connected workflows across teams and tools.
+I’m interested in how work actually happens: the tools people use, the information they need, and the decisions and responsibilities that connect everything. I design workflows and build tools, looking for changes that reduce unnecessary effort, improve reliability, or make a process easier to understand.
 
-My background combines hands-on development, technical support, and business analysis. I’ve built user-facing tools, reporting solutions, and software that automates and connects work. I’ve also helped teams define how they measure success and document how they operate. The common thread is understanding the work before deciding what should change.
+## Background
 
-## Understand before building
+My background combines hands-on development, technical support, and business analysis. I’ve built user-facing tools, reporting solutions, and software that automates and connects work. I’ve also helped teams define how they measure success and document how they operate.
 
-I start by observing the operation and comparing the described process with what happens in practice. I identify gaps and bottlenecks, explain the problems they cause, and communicate potential improvements. I also help clarify what progress and success would look like. That assessment provides the basis for exploring detailed solutions and alternatives.
+That experience connects my recommendations to what it takes to build, use, and maintain a solution.
 
-## Design for everyday use
+## Beyond the demonstration
 
-A practical design needs to account for more than what happens when everything goes to plan. I consider responsibilities, information flows, validation, failure handling, recovery, and maintenance. Clear documentation gives people a foundation for building, using, and developing the solution further.
+I care about what happens beyond the demonstration. What if information is missing? How does someone recover from a failed step? Will another person understand the system when they take it over?
 
-## Connect advice with implementation
+Those questions shape the design as much as the intended result. I aim for the simplest approach that adequately meets the need, with clear responsibilities and documentation people can use.
 
-I can assess options, design an approach, and guide delivery-or develop the solution where needed. I explain new processes and provide practical documentation to support their adoption. I evaluate changes using data where available, alongside feedback and ongoing observation.
+## Projects and exploration
 
-## Use technology with purpose
+My own projects let me test ideas and examine how I work. I want to share what I learn and why I make particular choices - including trade-offs, what failed, and what I would change.
 
-Automation and AI are options, not starting assumptions. I use AI for activities such as brainstorming, planning, documentation, and keeping project information and decisions organized. I focus on where technology helps the work and where human judgment remains necessary.
+My interests include my setup, development practices, documentation, and experiments with AI and agents. I currently use AI mainly for brainstorming, planning, documentation, and keeping project context and decisions organized. I’m interested in what helps, what falls short, and what leads me to change my approach.
+
+## Helping others improve their work
+
+As a Workflow Design & Improvement Consultant, I bring the same perspective to helping organizations improve their workflows. I can assess a problem, design an approach, guide implementation, or develop the solution where needed.
+
+Sometimes the useful change is software; sometimes it is a clearer responsibility, a better handoff, or documentation people can use.
 
 ## Contact
 
-Have a workflow you’d like to improve, an operational problem, or a project to discuss? Get in touch at [contact@jagus.me](mailto:contact@jagus.me).
+Have a question, an idea, or a project to discuss? Tell me a little about it - whether it relates to something I’ve shared, a possible collaboration, or work you’d like help improving.
 
-Please keep your initial message brief and avoid confidential information.
+Email me at [contact@jagus.me](mailto:contact@jagus.me).
 
 [Back to my profile](../README.md)
